@@ -3,7 +3,7 @@ package com.example.tp4.Services;
 import com.example.tp4.DAO.CategorieRepository;
 import com.example.tp4.Services.Model.Article;
 import com.example.tp4.Services.Model.Categorie;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
